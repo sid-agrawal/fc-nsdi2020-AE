@@ -1,6 +1,6 @@
 #! /bin/bash
 
-ID=$RANDOM
+ID=$(uuidgen)
 QEMU=../bin/qemu-system-x86_64
 CORES=1
 MEM=256

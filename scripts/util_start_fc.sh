@@ -1,7 +1,7 @@
 #! /bin/bash -e
 
 # defaults
-ID=$RANDOM
+ID=$(uuidgen)
 FC=../bin/firecracker
 CORES=1
 MEM=256

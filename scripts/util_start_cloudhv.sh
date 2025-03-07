@@ -1,6 +1,6 @@
 #! /bin/bash
 
-ID=$RANDOM
+ID=$(uuidgen)
 CLOUDHV=../bin/cloud-hypervisor
 CORES=1
 MEM=256
